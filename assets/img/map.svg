@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="560" viewBox="0 0 720 560" font-family="Manrope, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#CFE3E6"/><stop offset="1" stop-color="#A9CCD3"/>
+    </linearGradient>
+    <linearGradient id="hills" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#DCE9E0"/><stop offset="1" stop-color="#EEF2EA"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="560" fill="#F4F1E8"/>
+  <!-- Dhofar mountains to the north -->
+  <path d="M0 0 H720 V60 C640 110 560 60 480 100 C400 140 320 90 240 120 C160 150 80 110 0 140 Z" fill="url(#hills)"/>
+  <path d="M60 92 L100 48 L140 92 M220 110 L262 62 L304 110 M400 96 L444 50 L488 96 M560 86 L600 44 L640 86" fill="none" stroke="#B7CCBF" stroke-width="2" stroke-linejoin="round"/>
+  <text x="26" y="36" font-size="13" font-weight="700" fill="#5F6663" letter-spacing="2">DHOFAR MOUNTAINS · WADI DARBAT →</text>
+  <!-- Arabian Sea to the south -->
+  <path d="M0 430 C120 410 200 450 320 432 C440 414 540 450 720 426 V560 H0 Z" fill="url(#sea)"/>
+  <path d="M0 455 C120 435 200 475 320 457 C440 439 540 475 720 451" fill="none" stroke="#fff" stroke-width="2" opacity=".7"/>
+  <path d="M0 482 C120 462 200 502 320 484 C440 466 540 502 720 478" fill="none" stroke="#fff" stroke-width="2" opacity=".5"/>
+  <text x="520" y="530" font-size="14" font-weight="700" fill="#2F6D60" letter-spacing="3">ARABIAN SEA</text>
+  <!-- roads -->
+  <path d="M0 300 H720" stroke="#D9D0BE" stroke-width="10" stroke-linecap="round"/>
+  <path d="M0 300 H720" stroke="#fff" stroke-width="2" stroke-dasharray="14 12"/>
+  <path d="M400 150 V420" stroke="#D9D0BE" stroke-width="10" stroke-linecap="round"/>
+  <path d="M400 150 V420" stroke="#fff" stroke-width="2" stroke-dasharray="14 12"/>
+  <path d="M90 300 C120 360 180 390 260 410" stroke="#E2DACB" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M400 300 C480 320 540 380 600 420" stroke="#E2DACB" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <text x="470" y="290" font-size="11" font-weight="700" fill="#8E9590">SULTAN QABOOS ST</text>
+  <text x="408" y="172" font-size="11" font-weight="700" fill="#8E9590" transform="rotate(90 408 172)">AS SAADAH ST</text>
+  <!-- airport -->
+  <g transform="translate(96 230)">
+    <rect x="-36" y="-14" width="72" height="28" rx="14" fill="#fff" stroke="#DAD0BF"/>
+    <path d="M-20 -3 l8 0 l6 -7 l3 0 l-3 7 l10 0 l3 -3 l3 0 l-2 6 l2 6 l-3 0 l-3 -3 l-10 0 l3 7 l-3 0 l-6 -7 l-8 0 l-2 -3 z" fill="#5F6663"/>
+    <text x="0" y="30" font-size="12" font-weight="700" fill="#23292A" text-anchor="middle">Salalah Airport</text>
+    <text x="0" y="45" font-size="11" fill="#5F6663" text-anchor="middle">7 km · 15 min</text>
+  </g>
+  <!-- Al Baleed + museum -->
+  <g transform="translate(250 400)">
+    <circle r="9" fill="#B8893B"/>
+    <text x="0" y="-16" font-size="12" font-weight="700" fill="#23292A" text-anchor="middle">Al Baleed &amp; Frankincense Museum</text>
+    <text x="0" y="26" font-size="11" fill="#5F6663" text-anchor="middle">8 km</text>
+  </g>
+  <!-- Al Haffa -->
+  <g transform="translate(150 436)">
+    <circle r="7" fill="#2F6D60"/>
+    <text x="0" y="-13" font-size="12" font-weight="700" fill="#23292A" text-anchor="middle">Al Haffa Beach &amp; Souq</text>
+  </g>
+  <!-- Dahariz beach -->
+  <g transform="translate(600 430)">
+    <circle r="7" fill="#2F6D60"/>
+    <text x="0" y="-13" font-size="12" font-weight="700" fill="#23292A" text-anchor="middle">Dahariz Beach</text>
+    <text x="0" y="24" font-size="11" fill="#5F6663" text-anchor="middle">6 km</text>
+  </g>
+  <!-- Grand mosque -->
+  <g transform="translate(240 236)">
+    <circle r="7" fill="#B8893B"/>
+    <text x="0" y="-13" font-size="12" font-weight="700" fill="#23292A" text-anchor="middle">Sultan Qaboos Mosque</text>
+    <text x="0" y="24" font-size="11" fill="#5F6663" text-anchor="middle">9 km</text>
+  </g>
+  <!-- Saadah commercial district -->
+  <rect x="330" y="206" width="150" height="150" rx="22" fill="#E4EEE9" opacity=".8"/>
+  <text x="405" y="196" font-size="11" font-weight="700" fill="#2F6D60" text-anchor="middle" letter-spacing="2">SAADAH DISTRICT</text>
+  <g fill="#fff" stroke="#DAD0BF">
+    <rect x="345" y="222" width="26" height="18" rx="3"/><rect x="345" y="248" width="26" height="22" rx="3"/><rect x="345" y="330" width="26" height="16" rx="3"/>
+    <rect x="432" y="222" width="34" height="18" rx="3"/><rect x="432" y="248" width="34" height="22" rx="3"/><rect x="432" y="330" width="34" height="16" rx="3"/>
+  </g>
+  <text x="358" y="361" font-size="10" fill="#5F6663">cafés · shops</text>
+  <!-- the hotel -->
+  <g transform="translate(400 300)">
+    <circle r="30" fill="#174D45" opacity=".12"/>
+    <circle r="18" fill="#174D45"/>
+    <path d="M0 -40 C-11 -40 -19 -32 -19 -22 C-19 -8 0 8 0 8 C0 8 19 -8 19 -22 C19 -32 11 -40 0 -40 Z" fill="#B8893B" stroke="#fff" stroke-width="2"/>
+    <text x="0" y="-18" font-size="17" font-weight="700" fill="#fff" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif">B</text>
+    <text x="0" y="34" font-size="13" font-weight="800" fill="#174D45" text-anchor="middle">Bristol Hotel Salalah</text>
+    <text x="0" y="49" font-size="11" fill="#5F6663" text-anchor="middle">opposite Al Saadah Health Centre</text>
+  </g>
+  <!-- compass -->
+  <g transform="translate(664 112)">
+    <circle r="22" fill="#fff" stroke="#DAD0BF"/>
+    <path d="M0 -16 L5 0 L0 16 L-5 0 Z" fill="#174D45"/>
+    <text x="0" y="-26" font-size="11" font-weight="800" fill="#23292A" text-anchor="middle">N</text>
+  </g>
+</svg>
